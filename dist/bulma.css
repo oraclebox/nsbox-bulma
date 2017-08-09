@@ -348,6 +348,9 @@ table th {
   border-left: 0 !important;
   border-right: 0 !important; }
 
+.is-hidden {
+  display: none; }
+
 .is-m-mini {
   margin: 0.5rem !important; }
 
