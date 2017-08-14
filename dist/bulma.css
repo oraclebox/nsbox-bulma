@@ -2867,6 +2867,8 @@ a.box:active {
     display: block;
     height: auto;
     width: 100%; }
+  .image.is-circle img {
+    border-radius: 50%; }
   .image.is-square img, .image.is-1by1 img, .image.is-4by3 img, .image.is-3by2 img, .image.is-16by9 img, .image.is-2by1 img {
     bottom: 0;
     left: 0;
