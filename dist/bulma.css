@@ -507,8 +507,30 @@ table th {
 .font-yahei {
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", "PingFang SC", "微軟雅黑", "Microsoft YaHei", sans-serif !important; }
 
+.g-is-bolder {
+  font-weight: bolder !important; }
+
 .is-cursor-pointer {
   cursor: pointer !important; }
+
+div.g-is-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  div.g-is-flex.g-is-horz-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  div.g-is-flex.g-is-vert-center {
+    align-items: center; }
+
+div.is-grouped.g-is-horz-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+div.is-grouped.g-is-vert-center {
+  align-items: center; }
 
 .is-clearfix:after {
   clear: both;
