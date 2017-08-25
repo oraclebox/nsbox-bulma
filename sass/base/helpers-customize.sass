@@ -73,3 +73,17 @@ div.is-grouped
         justify-content: center 
     &.g-is-vert-center
         align-items: center    
+        
+// DIV
+div
+  @each $name, $pair in $colors
+    $color: nth($pair, 1)
+    &.bg-is-#{$name}
+      background-color: $color
+div
+  @each $name, $pair in $colors
+    $color: nth($pair, 1)
+    $color-invert: nth($pair, 2)
+    &.bgc-is-#{$name}
+      background-color: $color
+      color: $color-invert    

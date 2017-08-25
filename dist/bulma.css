@@ -532,6 +532,69 @@ div.is-grouped.g-is-horz-center {
 div.is-grouped.g-is-vert-center {
   align-items: center; }
 
+div.bg-is-white {
+  background-color: white; }
+
+div.bg-is-black {
+  background-color: #0a0a0a; }
+
+div.bg-is-light {
+  background-color: whitesmoke; }
+
+div.bg-is-dark {
+  background-color: #363636; }
+
+div.bg-is-primary {
+  background-color: #00d1b2; }
+
+div.bg-is-info {
+  background-color: #3273dc; }
+
+div.bg-is-success {
+  background-color: #23d160; }
+
+div.bg-is-warning {
+  background-color: #ffdd57; }
+
+div.bg-is-danger {
+  background-color: #ff3860; }
+
+div.bgc-is-white {
+  background-color: white;
+  color: #0a0a0a; }
+
+div.bgc-is-black {
+  background-color: #0a0a0a;
+  color: white; }
+
+div.bgc-is-light {
+  background-color: whitesmoke;
+  color: #363636; }
+
+div.bgc-is-dark {
+  background-color: #363636;
+  color: whitesmoke; }
+
+div.bgc-is-primary {
+  background-color: #00d1b2;
+  color: #fff; }
+
+div.bgc-is-info {
+  background-color: #3273dc;
+  color: #fff; }
+
+div.bgc-is-success {
+  background-color: #23d160;
+  color: #fff; }
+
+div.bgc-is-warning {
+  background-color: #ffdd57;
+  color: rgba(0, 0, 0, 0.7); }
+
+div.bgc-is-danger {
+  background-color: #ff3860;
+  color: #fff; }
+
 .is-clearfix:after {
   clear: both;
   content: " ";
@@ -2930,6 +2993,15 @@ a.box:active {
   .image.is-128x128 {
     height: 128px;
     width: 128px; }
+  .image.is-160x160 {
+    height: 160px;
+    width: 160px; }
+  .image.is-200x200 {
+    height: 200px;
+    width: 200px; }
+  .image.is-256x256 {
+    height: 256px;
+    width: 256px; }
 
 .notification {
   background-color: whitesmoke;
